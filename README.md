@@ -96,7 +96,7 @@ git push heroku master:master
 
 ---
 
-<img src="client/src/img/post.png">
+<img src="client/src/img/posts.png">
 
 ---
 
