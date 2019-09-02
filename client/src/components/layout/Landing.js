@@ -17,11 +17,7 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-<<<<<<< HEAD
                 <h1 className="display-3 mb-4">DevsNetwork</h1>
-=======
-                <h1 className="display-3 mb-4">Devs Network</h1>
->>>>>>> b6c2c8c61def663ef398ebb2b511fb9835162daa
                 <p className="lead">
                   {" "}
                   Create a developer profile/portfolio, share posts and get help
