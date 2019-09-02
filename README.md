@@ -19,8 +19,6 @@ https://github.com/savajapurva/DevsNetwork-MERN.git
 # Install dependencies
 cd DevsNetwork-MERN && npm install
 
-# create a .env file in root of your project
-touch .env
 ```
 
 Enter mongoURI and secret in config->keys_dev.js
