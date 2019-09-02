@@ -86,19 +86,23 @@ npm run build
 git push heroku master:master
 ```
 
-<img src="img/dashboard.png">
+<img src="client/src/img/overallprofile.png">
 
 ---
 
-<img src="img/developer-profiles.png">
+<img src="client/src/img/dashboard.png">
 
 ---
 
-<img src="img/post-feed.png">
+<img src="client/src/img/devlist.png">
 
 ---
 
-<img src="img/comment-feed.png">
+<img src="client/src/img/post.png">
+
+---
+
+<img src="client/src/img/form1.png">
 
 ---
 
