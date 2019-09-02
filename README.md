@@ -1,10 +1,10 @@
-# Dev Connector
+# Developer's Network
 
 A platform for developers to connect. They can create their portofolio by adding their experience, education, skills and other important information of their professional career.
 
 Users can also create small posts and like/dislike and comment on other posts.
 
-Live link: <a href="https://mighty-dusk-38771.herokuapp.com/" target="_blank"> Click here</a>
+Live link: <a href="https://devnwk.herokuapp.com/" target="_blank"> Click here</a>
 
 <img src="img/home.png">
 
@@ -14,20 +14,20 @@ Live link: <a href="https://mighty-dusk-38771.herokuapp.com/" target="_blank"> C
 
 ```bash
 # clone repository
-https://github.com/RoshanSureen/dev-connector.git
+https://github.com/savajapurva/DevsNetwork-MERN.git
 
 # Install dependencies
-cd dev-connector && npm install
+cd DevsNetwork-MERN && npm install
 
 # create a .env file in root of your project
 touch .env
 ```
 
-In the .env file create the below 2 enviroment varieables. Make sure it is exactly as shown below. No special charecters or spaces must be there.
+Enter mongoURI and secret in config->keys_dev.js
 
 ```
-DB_URL=YOUR_OWN_MONGO_URI
-TOKEN_SECRET=YOUR_OWN_SECRET
+mongoURI=YOUR_OWN_MONGO_URI
+secretOrKey=YOUR_OWN_SECRET
 ```
 
 To run the development server:
@@ -72,8 +72,8 @@ You will be prompted to enter your email and password which is the same the emai
 heroku create
 
 # set enviroment vareiables
-heroku config:set DB_URL=YOUR_OWN_DB_URI
-heroku config:set TOKEN_SECRET=YOUR_OWN_SECRET
+heroku config:set mongoURI=YOUR_OWN_MONGO_URI
+heroku config:set secretOrKey=YOUR_OWN_SECRET
 ```
 
 Try to keep your production DB different from development DB
