@@ -6,7 +6,7 @@ Users can also create small posts and like/dislike and comment on other posts.
 
 Live link: <a href="https://devnwk.herokuapp.com/" target="_blank"> Click here</a>
 
-<img src="homepage.png">
+<img src="client/src/img/homepage.png">
 
 ---
 
