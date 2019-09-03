@@ -45,8 +45,6 @@ npm run build
 npm run prod
 ```
 
-In the project a `Procfile` has also been provided. This file is used by Heroku.
-
 ### To deploy this project to heroku see steps below:
 
 You will need to install the [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
